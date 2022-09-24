@@ -1,0 +1,23 @@
+.regis{
+    margin-top: 100px;
+  color:white;
+  height: 5%;
+}
+.Btn{
+    background-color: black;
+    border-radius: 5px;
+    border: 1px solid white;
+    color: white;
+    width: 100px;
+}
+.Btn:hover{
+    background-color: rgb(255, 81, 0);
+}
+.Btn2{
+    margin-left: 20px;
+    width: 100px;
+    border-radius: 5px;
+}
+.Btn2:hover{
+    background-color: rgb(255, 81, 0);
+}

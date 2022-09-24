@@ -1,0 +1,40 @@
+.dash_board{
+    width: 98%;
+    height: 88%;
+    color: white;
+}
+.child_d{
+    color: white;
+    text-align: center;
+}
+.container_d{
+    margin-top: -500px;
+    margin-left: 10px;
+    border: 2px solid orangered;
+    width: 400px;
+    height: 450px;
+    margin-left: 30px;
+}
+.group{
+    display: flex;
+}
+.img{
+    margin-top: 10px;
+    width: 200px;
+    height: 200px;
+}
+.select{
+    margin-top: 10px;
+    height: 20px;
+    width: 100px;
+    background-color: white;
+    color: black;
+}
+.Booking{
+    margin-top: 30px;
+    height: 35px;
+    width: 150px;
+    background-color: rgb(255, 8, 0);
+    color: white;
+    border-radius: 10px;
+}

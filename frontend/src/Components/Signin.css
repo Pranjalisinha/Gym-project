@@ -1,0 +1,31 @@
+.signin_page{
+    margin: 10px 20px;
+    text-align: center;
+    color: white;
+    height: 300px;
+    width: 500px;
+    border: 2px solid rgb(255, 60, 0);
+    border-radius: 5%;
+    box-shadow: 5px 10px #181717;
+}
+.signin_page:hover{
+    height: 330px;
+    width: 520px;
+    background-color: rgb(54, 54, 54);
+}
+.form_signin{
+    margin: 20px 40px;
+    height: 20px;
+    width: 80%;
+}
+.signin_btn{
+    margin-top: 30px;
+    background-color: black;
+    border-radius: 5px;
+    border: 1px solid white;
+    color: white;
+    width: 100px;
+}
+.signin_btn:hover{
+    background-color: rgb(255, 81, 0);
+}
