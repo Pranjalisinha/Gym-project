@@ -14,7 +14,7 @@ const Signin = () => {
     console.log(data)
     e.preventDefault()
     if (data.Password.length && data.email.length) {
-      axios.post("http://localhost:3001/userRegister/Signin", data).then((loginData) => {
+      axios.post("https://gym-server-app.herokuapp.com/userRegister/Signin", data).then((loginData) => {
         localStorage.setItem("authorization", loginData.data.Authtoken)
         // console.log(localStorage.getItem("authorization"))
 

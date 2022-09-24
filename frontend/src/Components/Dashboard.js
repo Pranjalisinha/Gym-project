@@ -9,7 +9,7 @@ const Dashboard = ()=>{
     const [bookdata, setBookData] = useState([]);
 
     useEffect(()=>{
-        axios.get("http://localhost:3001/joinGym/gym").then((data)=>{
+        axios.get("https://gym-server-app.herokuapp.com/joinGym/gym").then((data)=>{
            setBookData(data.data);
            
         }).catch((err)=>{

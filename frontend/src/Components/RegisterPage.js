@@ -12,7 +12,7 @@ const RegisterPage = () => {
   const handleRegister = (e) => {
     console.log(data);
     e.preventDefault()
-    axios.post("http://localhost:3001/userRegister/Register", data)
+    axios.post("https://gym-server-app.herokuapp.com/userRegister/Register", data)
       .then((userData) => {
         console.log(userData)
         Navigate("/Signin")

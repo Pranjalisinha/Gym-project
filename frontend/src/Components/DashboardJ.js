@@ -20,7 +20,7 @@ const DashboardJ = () => {
         allUserData();
     }, []);
     const allUserData = () => {
-        axios.get("http://localhost:3001/userRegister/user").then((data) => {
+        axios.get("https://gym-server-app.herokuapp.com/userRegister/user").then((data) => {
             setUser(data.data);
         }).catch((err) => {
             console.log(err);
@@ -50,7 +50,7 @@ const DashboardJ = () => {
         } else{
         axios({
             method: 'POST',
-            url: "http://localhost:3001/joinGym/join",
+            url: "https://gym-server-app.herokuapp.com/joinGym/join",
             data: {
                 Joiner: username,
                 Trainer: bookslot,
@@ -75,7 +75,7 @@ const DashboardJ = () => {
         } else {
         axios({
             method: 'POST',
-            url: "http://localhost:3001/joinGym/join",
+            url: "https://gym-server-app.herokuapp.com/joinGym/join",
             data: {
                 Joiner: username,
                 Trainer: bookslot,
@@ -100,7 +100,7 @@ const DashboardJ = () => {
         } else {
         axios({
             method: 'POST',
-            url: "http://localhost:3001/joinGym/join",
+            url: "https://gym-server-app.herokuapp.com/joinGym/join",
             data: {
                 Joiner: username,
                 Trainer: bookslot,
@@ -119,7 +119,7 @@ const DashboardJ = () => {
     }
     }
     useEffect(()=>{
-        axios.get("http://localhost:3001/joinGym/gym").then((data)=>{
+        axios.get("https://gym-server-app.herokuapp.com/joinGym/gym").then((data)=>{
            setFilled(data.data);
            
         }).catch((err)=>{
